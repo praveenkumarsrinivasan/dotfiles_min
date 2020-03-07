@@ -1,0 +1,17 @@
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+[user]
+    name = Praveen Kumar Srinivasan
+    email = praveen.sxi@gmail.com
+[filter "media"]
+    clean = git-media-clean %f
+    smudge = git-media-smudge %f
+[credential]
+    helper = osxkeychain
+[push]
+    default = simple
