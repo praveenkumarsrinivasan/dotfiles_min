@@ -1,6 +1,6 @@
 # install zsh custom files
 cd ~/.oh-my-zsh/custom/
-ln -s ~/.dotfiles/pks/zsh/*.zsh
+ln -s ~/.dotfiles/zsh/*.zsh
 
 source ~/.zshrc
 
