@@ -1,0 +1,10 @@
+# DOCKER
+alias doci='docker images'
+alias docrmi='docker rmi'
+alias docps='docker ps -a'
+alias docrm='docker rm'
+alias docs='docker stop'
+alias dcup='docker-compose up -d'
+alias dcdn='docker-compose down'
+alias dcps='docker-compose ps'
+alias dclogs='docker-compose logs'

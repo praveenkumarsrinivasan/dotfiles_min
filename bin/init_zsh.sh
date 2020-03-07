@@ -1,13 +1,14 @@
-
 mkdir -p ~/.dotfiles/pks/
 
-# todo clone dotfiles_min to ~/.dotfiles/pks/
+# clone dotfiles_min to ~/.dotfiles/pks/
+cd ~/.dotfiles/pks/
+git clone https://github.com/praveenkumarsrinivasan/dotfiles_min.git
 
-
-# zsh alias
+# install zsh custom files
 cd ~/.oh-my-zsh/custom/
-ln -s ../zsh/*.zsh
+ln -s ~/.dotfiles/pks/zsh/*.zsh
 
-# zshrc  
-#copy my zshrc here
+source ~/.zshrc
 
+# copy 
+cp ~/.dotfiles/pks/vim/.vimrc ~/.vimrc
