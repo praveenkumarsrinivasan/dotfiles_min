@@ -5,4 +5,4 @@ ln -s ~/.dotfiles/pks/zsh/*.zsh
 source ~/.zshrc
 
 # copy 
-cp ~/.dotfiles/pks/vim/.vimrc ~/.vimrc
+cp ~/.dotfiles/vim/.vimrc ~/.vimrc
