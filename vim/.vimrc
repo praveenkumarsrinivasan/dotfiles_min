@@ -82,16 +82,16 @@ set encoding=utf-8
 set fileencodings=utf-8
 set fileformats=unix,dos,mac
 
-set foldmethod=syntax
+" set foldmethod=syntax
 " fold minimum lines
-set fml=1
+" set fml=1
 " These commands open folds
-set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo
+" set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo
 
 " History Buffer Setting
 set history=1000
 set undolevels=1000
-set undofile
+" set undofile
 
 " Make search case insensitive
 set hlsearch
